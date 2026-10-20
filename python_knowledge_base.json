@@ -1,0 +1,83 @@
+
+[
+  {
+    "topic": "Python Introduction",
+    "keywords": ["python", "introduction", "what is python", "features"],
+    "content": "Python is a high-level, interpreted, general-purpose programming language. It is known for readable syntax and is used in web development, automation, data science, artificial intelligence, machine learning, and scripting. Python uses indentation to define code blocks."
+  },
+  {
+    "topic": "Variables",
+    "keywords": ["variable", "variables", "declare variable", "assignment"],
+    "content": "A variable is a name that refers to a value. Python creates a variable when a value is assigned to it. Example: name = 'Ashwini', age = 21, and marks = 85. Variable names should be meaningful and cannot start with a number."
+  },
+  {
+    "topic": "Python Data Types",
+    "keywords": ["data type", "data types", "int", "float", "string", "list", "tuple", "dictionary", "boolean"],
+    "content": "Common Python data types include int for whole numbers, float for decimal numbers, str for text, bool for True or False, list for ordered mutable collections, tuple for ordered immutable collections, set for unique elements, and dict for key-value pairs. Example: age = 21, price = 12.5, name = 'Sam', is_valid = True."
+  },
+  {
+    "topic": "Operators",
+    "keywords": ["operator", "operators", "arithmetic", "comparison", "logical"],
+    "content": "Python arithmetic operators include +, -, *, /, //, %, and **. Comparison operators include ==, !=, >, <, >=, and <=. Logical operators are and, or, and not. Example: 10 % 3 returns 1, and 2 ** 3 returns 8."
+  },
+  {
+    "topic": "Conditional Statements",
+    "keywords": ["if", "else", "elif", "condition", "conditional statement"],
+    "content": "Conditional statements execute code based on a condition. Python uses if, elif, and else. Example: age = 18; if age >= 18: print('Adult'); else: print('Minor'). Indentation is required for the code inside each branch."
+  },
+  {
+    "topic": "Loops",
+    "keywords": ["loop", "loops", "for loop", "while loop", "break", "continue"],
+    "content": "Python has for loops and while loops. A for loop iterates over items in a sequence or iterable. A while loop repeats while a condition is true. Example: for i in range(5): print(i) prints numbers 0 through 4. break exits a loop, while continue skips to the next iteration."
+  },
+  {
+    "topic": "Functions",
+    "keywords": ["function", "functions", "def", "parameter", "argument", "return"],
+    "content": "A function is a reusable block of code defined with the def keyword. Parameters receive input values, and return sends a result back to the caller. Example: def add(a, b): return a + b. Calling add(2, 3) returns 5."
+  },
+  {
+    "topic": "Lists and Tuples",
+    "keywords": ["list", "lists", "tuple", "tuples", "mutable", "immutable", "index"],
+    "content": "A list is an ordered, mutable collection written with square brackets, such as numbers = [1, 2, 3]. A tuple is an ordered, immutable collection written with parentheses, such as point = (4, 5). Indexing starts at 0. Lists support methods such as append, remove, and sort."
+  },
+  {
+    "topic": "Dictionaries and Sets",
+    "keywords": ["dictionary", "dict", "key value", "set", "unique values"],
+    "content": "A dictionary stores key-value pairs, for example student = {'name': 'Sam', 'age': 20}. Access a value using student['name'] or student.get('name'). A set stores unique elements, for example unique_numbers = {1, 2, 3}. Sets are useful for removing duplicates and performing set operations."
+  },
+  {
+    "topic": "Object-Oriented Programming",
+    "keywords": ["oop", "object oriented programming", "class", "object", "inheritance", "polymorphism", "encapsulation"],
+    "content": "Object-oriented programming organizes code using classes and objects. A class defines attributes and methods, while an object is an instance of a class. Important concepts include encapsulation, inheritance, polymorphism, and abstraction. The __init__ method commonly initializes an object's attributes."
+  },
+  {
+    "topic": "Exception Handling",
+    "keywords": ["exception", "error handling", "try", "except", "finally", "raise"],
+    "content": "Exception handling helps a program respond to runtime errors. Use try for code that may fail, except to handle an exception, else for code that runs if no exception occurs, and finally for cleanup code. Example: try: result = 10 / 0; except ZeroDivisionError: print('Cannot divide by zero')."
+  },
+  {
+    "topic": "File Handling",
+    "keywords": ["file", "file handling", "open", "read", "write", "with open"],
+    "content": "Python file handling uses open() to access files. Common modes include r for reading, w for writing and replacing existing content, and a for appending. Using with open('example.txt', 'r', encoding='utf-8') as file automatically closes the file when the block finishes."
+  },
+  {
+    "topic": "Modules and Packages",
+    "keywords": ["module", "modules", "package", "import", "library"],
+    "content": "A module is a Python file containing reusable code. A package organizes related modules. Use import math to import a module or from math import sqrt to import a specific function. The Python standard library includes modules for mathematics, dates, file handling, and more."
+  },
+  {
+    "topic": "List Comprehension",
+    "keywords": ["list comprehension", "comprehension", "filter list", "transform list"],
+    "content": "A list comprehension creates a list concisely from an iterable. Example: squares = [x * x for x in range(5)] produces [0, 1, 4, 9, 16]. You can include a condition, such as even_numbers = [x for x in range(10) if x % 2 == 0]."
+  },
+  {
+    "topic": "Python Virtual Environments and pip",
+    "keywords": ["pip", "install package", "virtual environment", "venv", "dependency"],
+    "content": "pip installs Python packages, for example python -m pip install requests. A virtual environment isolates project dependencies. Create one with python -m venv .venv. On Windows PowerShell, activate it with .\\.venv\\Scripts\\Activate.ps1. Keep secrets such as API keys in environment variables, not in source code."
+  },
+  {
+    "topic": "Python Debugging",
+    "keywords": ["debug", "debugging", "traceback", "syntax error", "type error", "name error"],
+    "content": "Debugging means finding and fixing problems in a program. Read the traceback from the bottom to identify the exception and the relevant line. SyntaxError indicates invalid syntax, NameError often means a name is undefined, TypeError indicates an operation used an incompatible type, and IndexError means a sequence index is out of range."
+  }
+]
